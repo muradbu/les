@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://acegif.com/wp-content/uploads/turkish-flag.gif");
+    background-size: cover;
+}
+
 .center {
     display: flex;
     align-items: center;
@@ -36,5 +41,5 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-size: x-large;
     z-index: 20;
-    background-color: #ff000050;
+    background-color: #ffffff50;
 }
