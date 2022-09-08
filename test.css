@@ -1,9 +1,40 @@
 .center {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row > * + * {
+    margin-left: 3rem;
 }
 
 .tekstgrootte {
     font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.osman {
+    z-index: 10;
+    margin-top: -10%;
+}
+
+.bottom {
+    bottom: 0;
+    position: sticky;
+    font-weight: bold;
+    font-size: x-large;
+    z-index: 20;
+    background-color: #ff000050;
 }
